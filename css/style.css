@@ -1857,7 +1857,7 @@ transform:rotate(35deg);
 
 
 .cta-section {
-  background: #ccc;
+  background: url(../images/bg-CTA.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
