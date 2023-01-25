@@ -2029,14 +2029,14 @@ transform:rotate(35deg);
 
 
 .cta-section {
-  background-image: url(../images/bg-CTA.jpg);
+  background-image: url(../images/bg-cta-01.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
   min-height: 600px;
   position: relative;
   display: flex;
-  z-index: 1;
+  z-index: 9;
 }
 
 
