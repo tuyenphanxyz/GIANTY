@@ -88,7 +88,7 @@
         $('#news').owlCarousel({
             loop: true,
             margin: 10,
-             autoplay: true,
+             /*autoplay: true,*/
                 
                 navigation: false,
             responsiveClass: true,
@@ -248,10 +248,10 @@ if($('.progress-levels .progress-box .bar-fill').length){
         $('.animated-1-Slide-In-Left').addClass('slideInLeft').attr('data-wow-delay', '0.5s');
         /*Fade In Up and Other Delay*/
         $('.animated-Fade-In-Up-1').addClass('fadeInUp').attr('data-wow-delay', '0.2s');
-        $('.animated-Fade-In-Up-2').addClass('fadeInUp').attr('data-wow-delay', '0.4s');
-        $('.animated-Fade-In-Up-3').addClass('fadeInUp').attr('data-wow-delay', '0.6s');
-        $('.animated-Fade-In-Up-4').addClass('fadeInUp').attr('data-wow-delay', '0.8s');
-        $('.animated-Fade-In-Up-5').addClass('fadeInUp').attr('data-wow-delay', '1s');
+        $('.animated-Fade-In-Up-2').addClass('fadeInUp').attr('data-wow-delay', '0.6s');
+        $('.animated-Fade-In-Up-3').addClass('fadeInUp').attr('data-wow-delay', '0.8s');
+        $('.animated-Fade-In-Up-4').addClass('fadeInUp').attr('data-wow-delay', '0.9s');
+        $('.animated-Fade-In-Up-5').addClass('fadeInUp').attr('data-wow-delay', '1.1s');
         $('.animated-Fade-In-Up-6').addClass('fadeInUp').attr('data-wow-delay', '1.2s');
         $('.animated-Fade-In-Up-7').addClass('fadeInUp').attr('data-wow-delay', '1.4s');
         $('.animated-Fade-In-Up-8').addClass('fadeInUp').attr('data-wow-delay', '1.6s');
