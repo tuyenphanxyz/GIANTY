@@ -226,9 +226,7 @@ h5.text-hero {
     text-align: center;
     margin-bottom: 15px;
     font-size: 18px;
-    background-image: linear-gradient(to top, #ffffff, #ffffff21,#ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fafafa4f;
 }
 .hero-text-bellow {
 	/* display:none; */
@@ -840,9 +838,7 @@ h5.text-hero {
     margin-left: 10px;
     margin-bottom: 15px;
     font-size: 18px;
-    background-image: linear-gradient(to top, #ffffff, #ffffff21,#ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+       color: #fafafa4f;
 }
 .hero-text-bellow {
 	/* display:none; */
