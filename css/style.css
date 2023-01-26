@@ -1405,9 +1405,7 @@ h3.heading-news {
   font-size: 96px;
   font-weight: 700;
   display: flex;
-  background-image: linear-gradient(to top, #ff0443, #ff049b,#ff049b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color:#ff0443;
   text-transform: uppercase;
 }
 
@@ -1836,7 +1834,7 @@ display: none;
 .heading-case-studies {
   font-size: 48px;
   font-weight: 700;
-  color:#F10B6C;
+  color:#ff0443;
   margin-bottom: 30px;
 }
 
@@ -2029,7 +2027,7 @@ transform:rotate(35deg);
 
 
 .cta-section {
-  background-image: url(../images/bg-cta-01.jpg);
+  background-image: url(../images/bg-CTA.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
