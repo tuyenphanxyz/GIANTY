@@ -108,6 +108,12 @@
                     nav: true,
                     loop: false,
                     margin: 36
+                },
+                1920: {
+                    items: 6,
+                    nav: true,
+                    loop: false,
+                    margin: 32
                 }
             }
         })
@@ -123,7 +129,7 @@
             responsiveClass: true,
             responsive: {
                 0: {
-                    items: 1,
+                    items: 2,
                     nav: true
                 },
                 600: {
@@ -136,7 +142,7 @@
                     items: 4,
                     nav: true,
                     loop: false,
-                    margin: 40
+                    margin: 24
                 }
             }
         })
@@ -150,7 +156,7 @@
             responsiveClass: true,
             responsive: {
                 0: {
-                    items: 1,
+                    items: 2,
                     nav: true
                 },
                 600: {
@@ -163,7 +169,7 @@
                     items: 4,
                     nav: true,
                     loop: false,
-                    margin: 40
+                    margin: 24
                 }
             }
         })
@@ -204,7 +210,8 @@
             responsive: {
                 0: {
                     items: 2,
-                    nav: true
+                    nav: true,
+                    margin: 16,
                 },
                 600: {
                     items: 4,
@@ -223,19 +230,33 @@
     })
 
 
+  $(function () {
+        $('#gallery-case-studies').owlCarousel({
+            loop: true,
+            margin: 10,
+            smartSpeed: 1000,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: true,
+                    loop: false,
+                    margin: 6
+                },
+                1200: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 6
+                }
+            }
+        })
+    })
 
-//Progress Bar / Levels
-if($('.progress-levels .progress-box .bar-fill').length){
-    $(".progress-box .bar-fill").each();
-    $(".progress-box .bar-fill").on('each',function() {
-        $('.progress-box .bar-fill').appear();
-        $('.progress-box .bar-fill').on('appear',function(){
-            var progressWidth = $(this).attr('data-percent');
-            $(this).css('width',progressWidth+'%');
-        });
-
-    },{accY: 0});
-}
 
 
     // ================================== Animate JS ==================================
