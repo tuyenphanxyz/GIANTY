@@ -1641,6 +1641,22 @@ display: none;
   right:0;
   
 }
+
+.card-number {
+  position: relative;
+  background-image: url(../images/bg-number.png);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 100%;
+  padding-top: 72px;
+}
+.card-number img {
+    position: absolute;
+    left: 81px;
+    right: 0;
+    top: -41px;
+}
 .gallery-products {
   background: #74747400;
   margin-top: 64px;
