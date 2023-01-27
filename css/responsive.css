@@ -262,9 +262,9 @@ h1.development-hero {
 }
 .logo-gianty-hero {
     position: absolute;
-    top: 196px;
+    top: 33vh;
     z-index: 9;
-    left: 126px;
+    left: 65vw;
     transform: scale(0.8);
 }
 
@@ -283,8 +283,8 @@ h1.development-hero {
 .shape-hero-one {
     position: absolute;
     z-index: 9;
-    right: 60px;
-    top: 120px;
+    right: 10vw;
+    top: 20vh;
     width: 64px;
     height: 64px;
 }
@@ -296,8 +296,8 @@ h1.development-hero {
 }	
 .shape-hero-two {
     position: absolute;
-    top: 120px;
-    left: 40px;
+    right: 10vw;
+    top: 20vh;
     z-index: 10;
     width: 100px;
     height: 100px;
@@ -386,17 +386,15 @@ h3.heading-news {
 .client-section {
     background: #F9F9F9;
     padding: 50px 0px;
-    height: 500px;
 }
 .client-section .nav-pills .nav-link {
 	font-size: 24px;
-	padding: 0px 11px;
+	padding: 0px 12px;
 }	
 	
 #client {
-	transform: scale(0.8);
 	position: relative;
-	top: 72px;
+	margin-top: 30px;
 }
 .client-section .nav-pills {
 	position: relative;
@@ -404,25 +402,19 @@ h3.heading-news {
 }
 .tab-client {
     position: relative;
-    top: -60px;
-    height: 450px;
+  
 }
-.tab-client .tab-pane {
-	height: 450px;
-}
+
 	
 #client-two {
-    transform: scale(0.8);
-    position: relative;
-    top: -120px;
-    left: 4px;
-    display: none;
+  position: relative;
+  left: 0px;
 }
 	
 .gallery-products {
-    transform: scale(1.8);
-    position: relative;
-    top: 190px;
+  position: relative;
+  transform: scale(1.5);
+  margin-bottom: 30px;
 }
 
 	
@@ -583,7 +575,7 @@ h3.heading-news {
 
 	.footer {
 	    background-color: #000000;
-	    padding: 80px 0px;
+	    padding: 60px 0px;
 	    padding-bottom: 0px;
 	    background-image: none !important;
 	}
@@ -597,30 +589,43 @@ h3.heading-news {
 	
 	.location {
 	    margin-bottom: 20px;
-	    margin-top: 36px;
+	    margin-top: 18px;
 	}
 		
 	.icon-social {
 	    margin-top: 30px;
 	    margin-left: 0px;
 	}
+	.group-form-input {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	
 	.base-form-contact {
-	    background: #fff;
-	    height: 520px;
-	    border-radius: 300px 300px 0px 0px;
+	    background: #ffffff;
+	    height: 100%;
+	    border-radius: 0px;
+	    position: relative;
+	    z-index: 9;
+	    border-radius: 100px 100px 0px 0px;
 	}
 	
 	.base-form-contact h3 {
-	    padding-top: 72px;
+	    padding-top: 24px;
 	    text-align: center;
 	    font-weight: 700;
 	    font-size: 30px;
 	    margin: auto;
 	    text-transform: capitalize;
 	}
-		
+	.times-work {
+		display:none;
+	}	
 	.coppy {
 	   display:none;
+	}
+	.footer-left .intro-footer p {
+		display: none;
 	}
 		
 }
@@ -901,7 +906,7 @@ h1.development-hero {
 }	
 .shape-hero-two {
     position: absolute;
-    top: 80px;
+    top: 374px;
     left: 40px;
     z-index: 10;
     width: 100px;
@@ -1339,21 +1344,77 @@ h3.heading-news {
 
 
 
-@media only screen and (min-width: 1180px) and (max-width: 1024px) {
-
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
 
 * {}
+
+.logo-gianty-hero {
+    position: absolute;
+    top: 243px;
+    z-index: 9;
+    left: 284px;
+    transform: scale(0.8);
+}
+.shape-hero-one {
+	    position: absolute;
+	    z-index: 9;
+	    right: 288px;
+	    top: 194px;
+	}
+	.shape-hero-two {
+	    position: absolute;
+	    z-index: 9;
+	    left: 798px;
+	    top: 261px;
+	}
+
+
 
 	
 }
 
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px)
+@media only screen and (min-width: 1200px) and (max-width: 1365px)
 {
 
-* {}
+	* {}
+	.logo-gianty-hero {
+	    position: absolute;
+	    top: 256px;
+	    z-index: 9;
+	    left: 309px;
+	    transform: scale(0.8);
+	}
+	.shape-hero-one {
+	    position: absolute;
+	    z-index: 9;
+	    right: 192px;
+	    top: 194px;
+	}
+	.shape-hero-two {
+	    position: absolute;
+	    z-index: 9;
+	    left: 798px;
+	    top: 261px;
+	}
+}
 
-	
+@media only screen and (min-width: 1512px) and (max-width: 1728px)
+{
+	* {}
+
+		.shape-hero-one {
+		    position: absolute;
+		    z-index: 9;
+		    right: 179px;
+		    top: 249px;
+		}
+	.shape-hero-two {
+    position: absolute;
+    top: 340px;
+    left: 1016px;
+ }
+
 }
 
 @media only screen and (min-width: 1920px) {
@@ -1372,7 +1433,11 @@ h3.heading-news {
     right: 520px;
     top: 235px;
 }
-
+.shape-hero-two {
+    position: absolute;
+    top: 340px;
+    left: 1090px;
+}
 	
 }	
 	
