@@ -14,12 +14,12 @@
     })
     $(document).ready(function () {
         $(window).scroll(function () {
-            $('.text-slide').css("top", 0 + $(window).scrollTop() / 1)
+            $('.title-hero').css("top", 0 + $(window).scrollTop() / 1)
         })
     })
     $(document).ready(function () {
         $(window).scroll(function () {
-            $('.text-slide').css("opacity", 1 - $(window).scrollTop() / 450)
+            $('.title-hero').css("opacity", 1 - $(window).scrollTop() / 450)
         })
     })
     // ================================== Button Back Top ==================================
@@ -185,7 +185,7 @@
             responsiveClass: true,
             responsive: {
                 0: {
-                    items: 2,
+                    items: 1,
                     nav: true
                 },
                 600: {
@@ -235,14 +235,15 @@
             loop: true,
             margin: 10,
             smartSpeed: 1000,
+             autoplay: true,
             responsiveClass: true,
             responsive: {
                 0: {
-                    items: 2,
+                    items: 1,
                     nav: true
                 },
                 600: {
-                    items: 3,
+                    items: 2,
                     nav: true,
                     loop: false,
                     margin: 6
@@ -257,6 +258,59 @@
         })
     })
 
+
+  $(function () {
+        $('#gallery-products').owlCarousel({
+            loop: true,
+            margin: 10,
+            smartSpeed: 1000,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: true,
+                    loop: false,
+                    margin: 6
+                },
+                1200: {
+                    items: 3,
+                    nav: true,
+                    loop: true,
+                    margin: 30
+                }
+            }
+        })
+    })
+$(function () {
+        $('#gallery-services').owlCarousel({
+            loop: true,
+            margin: 10,
+            smartSpeed: 1000,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: true,
+                    loop: false,
+                    margin: 6
+                },
+                1200: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 30
+                }
+            }
+        })
+    })
 
 
     // ================================== Animate JS ==================================
@@ -286,39 +340,7 @@
     });
 
 
-   var swiper = new Swiper("#mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 0,
-        stretch: 80,
-        depth: 200,
-        modifier: 1,
-        slideShadows: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
-
-   var swiper = new Swiper("#images-case-studies", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 30,
-          stretch: 0,
-          depth: 200,
-          modifier: 5,
-          slideShadows: true,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
+   
 
 
 
