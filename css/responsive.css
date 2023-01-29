@@ -204,27 +204,27 @@
 .hero-section {
     overflow: hidden;
 }
-.title-hero span {
+.title-hero div {
 	display: block !important;
 }
 .title-hero {
     position: relative;
     z-index: 1;
-    top: 86px;
 }
 
 h1.creative-hero
 
 {
 	font-size: 48px;
-	margin-left: 60px;
 	line-height: normal;
+	text-align: center;
 }
 
 h5.text-hero {
-    margin-left: 10px;
+    width: 300px;
     text-align: center;
     margin-bottom: 15px;
+    margin-left: 18px;
     font-size: 18px;
     color: #fafafa4f;
 }
@@ -237,10 +237,11 @@ h5.text-hero {
 	
 h1.development-hero {
     line-height: 50px;
-    font-size: 48px;
+    font-size: 43px;
     margin-top: 36px;
     color: #2f3662;
-    margin-left: 6px;
+    letter-spacing: 6px;
+    left: 1vw;
 }
 .bellow-hero {
     position: absolute;
@@ -262,14 +263,14 @@ h1.development-hero {
 }
 .logo-gianty-hero {
     position: absolute;
-    top: 33vh;
+    top: 23vh;
     z-index: 9;
-    left: 65vw;
+    left: 37vw;
     transform: scale(0.8);
 }
 
 .bg-galaxy .bg {
-    background: url(../images/bg-galaxy-02.jpg) no-repeat;
+    background: url(../images/bg-hero-phone.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
@@ -284,7 +285,7 @@ h1.development-hero {
     position: absolute;
     z-index: 9;
     right: 10vw;
-    top: 20vh;
+    top: 17vh;
     width: 64px;
     height: 64px;
 }
@@ -297,7 +298,7 @@ h1.development-hero {
 .shape-hero-two {
     position: absolute;
     right: 10vw;
-    top: 20vh;
+    top: 26vh;
     z-index: 10;
     width: 100px;
     height: 100px;
@@ -453,7 +454,22 @@ h3.heading-news {
     background: #000;
     padding: 60px 0px;
 }
-	
+
+.intro-case-studies {
+    position: absolute;
+    left: 14px;
+    padding: 0px;
+}
+.intro-case-studies p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f7f7f7db;
+    width: 290px;
+}
+.content-case-studies {
+    margin-left: 0px;
+    margin-top: 0px;
+}	
 .bottom-content-case-studies {
     margin-top: 48px;
 }
@@ -480,7 +496,7 @@ h3.heading-news {
   font-size: 48px;
 }
 .content-case-studies h1:nth-child(2) {
-  padding: 14px 0px;
+  padding: 26px 0px;
   margin-left: 10px;
   letter-spacing: 0px;
   opacity: 0.6;
@@ -514,7 +530,8 @@ h3.heading-news {
 }
 	
 .group-card-services {
-    margin-top: 0px;
+    margin-top: 18px;
+    margin-left: 0px;
 }
 .card-services span i {
     font-weight: bold;
@@ -607,11 +624,11 @@ h3.heading-news {
 	    border-radius: 0px;
 	    position: relative;
 	    z-index: 9;
-	    border-radius: 100px 100px 0px 0px;
+	    border-radius: 200px 200px 0px 0px;
 	}
 	
 	.base-form-contact h3 {
-	    padding-top: 24px;
+	    padding-top: 60px;
 	    text-align: center;
 	    font-weight: 700;
 	    font-size: 30px;
@@ -836,7 +853,7 @@ h3.heading-news {
 
 h1.creative-hero {
 	line-height: normal;
-	font-size: 96px;
+	font-size: 72px;
 }
 
 h5.text-hero {
@@ -854,10 +871,11 @@ h5.text-hero {
 	
 h1.development-hero {
     line-height: 96px;
-    font-size: 96px;
+    font-size: 72px;
     margin-top: 36px;
     color: #2f3662;
-    margin-left: 6px;
+    margin-left: 34px;
+    letter-spacing: 20px;
 }
 
 	
@@ -893,8 +911,8 @@ h1.development-hero {
 .shape-hero-one {
     position: absolute;
     z-index: 9;
-    right: 60px;
-    top: 240px;
+    right: 20vw;
+    top: 5vh;
     width: 64px;
     height: 64px;
 }
@@ -906,8 +924,8 @@ h1.development-hero {
 }	
 .shape-hero-two {
     position: absolute;
-    top: 374px;
-    left: 40px;
+    top: 22vh;
+    left: 10vw;
     z-index: 10;
     width: 100px;
     height: 100px;
@@ -1165,6 +1183,13 @@ h3.heading-news {
     transition: all 0.4s;
 }
 
+#gallery-services .owl-dots  {
+    margin-top:30px;
+	margin-bottom:30px;
+    transition: all 0.4s;
+}
+	
+
 /* ==== CTA section ==== */	
 
 .base-shape-cta {
@@ -1347,7 +1372,15 @@ h3.heading-news {
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
 
 * {}
-
+h1.development-hero {
+    font-size: 88px;
+    letter-spacing: 2rem;
+    background-image: linear-gradient(to top, #fd5201,#ed0137ed,#0175eded, #000dff,#000fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -32px;
+}
 .logo-gianty-hero {
     position: absolute;
     top: 243px;
@@ -1388,14 +1421,14 @@ h3.heading-news {
 	.shape-hero-one {
 	    position: absolute;
 	    z-index: 9;
-	    right: 192px;
-	    top: 194px;
+	    right: 28vw;
+	    top: 13vh;
 	}
 	.shape-hero-two {
 	    position: absolute;
 	    z-index: 9;
-	    left: 798px;
-	    top: 261px;
+	    left: 54vw;
+	    top: 22vh;
 	}
 }
 
@@ -1406,13 +1439,13 @@ h3.heading-news {
 		.shape-hero-one {
 		    position: absolute;
 		    z-index: 9;
-		    right: 179px;
-		    top: 249px;
+		    right: 30vw;
+		    top: 11vh;
 		}
 	.shape-hero-two {
     position: absolute;
-    top: 340px;
-    left: 1016px;
+    top: 22vh;
+    left: 54vw;
  }
 
 }
@@ -1430,13 +1463,13 @@ h3.heading-news {
 .shape-hero-one {
     position: absolute;
     z-index: 9;
-    right: 520px;
-    top: 235px;
+    right: 36vw;
+    top: 16vh;
 }
 .shape-hero-two {
     position: absolute;
-    top: 340px;
-    left: 1090px;
+    top: 26vh;
+    left: 49vw;
 }
 	
 }	
