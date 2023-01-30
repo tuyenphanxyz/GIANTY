@@ -582,7 +582,7 @@ ul.navbar-nav li.nav-item.btn-search a.nav-link:before {
 
 .footer h4 {
   margin-bottom:20px;
-  color: #fff;
+  color: #ff0443;
   font-weight: 600;
 }
 
@@ -1319,7 +1319,7 @@ h3.heading-news {
   position: absolute;
   width: 100%;
   top: 0%;
-  left: 30%; 
+  left: 340px;
   right: 0px;
 }
 
@@ -1335,7 +1335,6 @@ h3.heading-news {
     height: 700px;
     margin: 20px 0px;
     width: 100%;
-    overflow: hidden;
 }
 
 .group-char-designers, .group-char-engineers {
@@ -1398,7 +1397,7 @@ h3.heading-news {
   position: absolute;
   z-index: 1;
   right: 0;
-  left: 0;
+  left: 25px;
   top: 180px;
   width: 216px;
   transition: all 0.4s;
@@ -1511,9 +1510,9 @@ h3.heading-news {
 
 .char-mars-engineers {
   position: absolute;
-  left: 580px;
+  left: 545px;
   top: 186px;
-  width: 216px; 
+  width: 216px;
   transition: all 0.4s;
   cursor:pointer;
 }
