@@ -269,6 +269,17 @@ h1.development-hero {
     transform: scale(0.8);
 }
 
+.pop {
+    position: absolute;
+    width: 50%;
+    z-index: 9999;
+    right: 0;
+    bottom: 29px;
+    -webkit-animation: pop 6s infinite;
+    animation: pop 6s infinite;
+    animation-delay: 0.4s;
+}
+	
 .bg-galaxy .bg {
     background: url(../images/bg-hero-phone.jpg) no-repeat;
     background-size: cover;
