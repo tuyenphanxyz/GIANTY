@@ -263,7 +263,7 @@ h1.development-hero {
 }
 .logo-gianty-hero {
     position: absolute;
-    top: 23vh;
+    top: 25vh;
     z-index: 9;
     left: 37vw;
     transform: scale(0.8);
@@ -569,14 +569,30 @@ h3.heading-news {
 /* ==== CTA section ==== */	
 
 .base-shape-cta {
-	display:none;
 }
+
+.base-shape-cta .item-shape:nth-child(1) {
+	left: 0px;
+}
+.base-shape-cta .item-shape:nth-child(2) {
+	left: 0;
+}	
+.base-shape-cta .item-shape:nth-child(3) {
+	left: 0px;
+}	
+.base-shape-cta .item-shape:nth-child(4) {
+	right: -30px;
+}
+.base-shape-cta .item-shape:nth-child(5) {
+	right: 0;
+}
+	
 .cta-section {
     background-image: url(../images/bg-cta-01.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
-    min-height: 370px;
+    min-height: 600px;
 }
 	
 .text-cta h1 {
@@ -619,7 +635,7 @@ h3.heading-news {
 	}
 	
 	.base-form-contact {
-	    background: #ffffff;
+	    background: #ffffff00;
 	    height: 100%;
 	    border-radius: 0px;
 	    position: relative;
@@ -628,13 +644,38 @@ h3.heading-news {
 	}
 	
 	.base-form-contact h3 {
-	    padding-top: 60px;
+	    padding-top: 20px;
+	    color: #fff;
 	    text-align: center;
 	    font-weight: 700;
 	    font-size: 30px;
 	    margin: auto;
 	    text-transform: capitalize;
 	}
+.button-submit  {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+}
+.button-submit a.btn.btn-fill-primary {
+		color: #fff !important;
+}
+
+.button-submit .btn-fill-primary span	{
+	color: #fff !important;
+}
+
+.button-submit .btn-fill-primary:hover:before {
+  left: 190px;
+  background: #F10B50;
+}
+.button-submit .btn-fill-primary span i {
+  transform: translateX(12px);
+}
+.button-submit .btn-fill-primary:hover span i {
+  transform: translateX(35px);
+}
+	
 	.times-work {
 		display:none;
 	}	
