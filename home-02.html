@@ -42,12 +42,12 @@
       </div>
     </div>
     <!-- End Preloader -->
-    <!-- HEADER -->
+        <!-- HEADER -->
     <header class="header">
       <!-- Header For Screen Large -->
       <div class="header-screen-large">
-        <div class="container">
-          <div class="row">
+        <div class="container-fluid">
+          <div class="row ">
             <div class="col-12 col-md-12 col-lg-2">
               <!-- Logo -->
               <div class="logo-brand">
@@ -59,8 +59,8 @@
               </div>
               <!-- End Logo -->
             </div>
-            <div class="col-md-12 col-lg-9 offset-lg-1">
-              <div class="d-flex">
+            <div class="col-md-12 col-lg-10">
+              <div class="d-flex justify-content-end">
                 <!-- Menu -->
                 <div class="block-navigation float-right">
                   <nav class="navbar navbar-expand-lg">
@@ -200,7 +200,11 @@
           <!-- Shape  -->
           <div class="base-shape">
            <!--  <img src="images/logo-gianty-intro.png" alt="GIANTY" class="img-fluid logo-gianty-hero animated-Fade-In-Left"> -->
-           <img src="images/astronaunt-POP.png" alt="" class="img-fluid pop">
+           <div class="char-pop">
+             <!-- <img src="images/astronaunt-POP.png" alt="" class="img-fluid pop"> -->
+             <img src="images/UTRON-POP-OP-01.png" alt="" class="img-fluid pop">
+           </div>
+           
             <div class="shape-hero-one animated-Fade-In-6"></div>
             <div class="shape-hero-two animated-Fade-In-5"></div>
           </div>
@@ -329,7 +333,7 @@
         </div>
         <!-- END News Section -->
         <!-- START about us Section -->
-        <div class="about-us-section" style="background-image:url(images/bg-about.png);">
+        <div class="about-us-section" style="background-image:url(images/bg-about.webp);">
           <div class="container">
             <div class="row">
               <div class="col-lg-6">
@@ -598,7 +602,7 @@
         </div>
         <!-- END client Section -->
         <!-- START number Section -->
-        <div class="number-section" style="background-image:url(images/bg-client-02.png);">
+        <div class="number-section" style="background-image:url(images/bg-client.webp);">
           <div class="group-card-number">
             <!-- Row -->
             <div class="row justify-content-center">
@@ -792,9 +796,7 @@
 
                   <div class="group-images-services">
                   
-
-
-                        <div class="owl-carousel owl-theme" id="gallery-services">
+                  <div class="owl-carousel owl-theme" id="gallery-services">
                   <div class="item">
                     <div class="images-services animated-Fade-In-1 border-0">
                       <img src="images/services-02.png" class="img-fluid" alt="">
@@ -803,7 +805,7 @@
                   <!-- End item -->
                   <div class="item">
                     <div class="images-services animated-Fade-In-1 border-0">
-                      <img src="images/services-01.png" class="img-fluid" alt="">
+                      <img src="images/services-01.jpg" class="img-fluid" alt="">
                     </div>
                   </div>
                   <!-- End item -->
@@ -931,10 +933,10 @@
     <!-- END CONTENT -->
     <!-- FOOTER -->
     <footer class="footer" style="background-image:url(images/bg-footer.png);">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <!-- Col -->
-          <div class="col-md-6 col-lg-6">
+          <div class="col-md-6 col-lg-4">
             <div class="footer-left">
               <div class="intro-footer">
                 <a href="" class="logo-footer">
@@ -973,7 +975,7 @@
           </div>
           <!-- End col -->
           <!--  Col -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-4">
             <div class="info-footer">
               <h4>Info</h4>
               <ul class="nav-top">
@@ -1014,7 +1016,28 @@
 
               
             </div>
-            <div class="icon-social">
+            
+          </div>
+          <!--  End Col -->
+          <!--  Col -->
+          <div class="col-md-12 col-lg-4">
+            <div class="base-form-contact">
+              <h3>Have a project <br>in your mind? </h3>
+              <div class="group-form-input">
+                <div class="input-name">
+                  <input type="text" class="form-control input-name" placeholder="Your name">
+                </div>
+                <div class="input-mail">
+                  <input type="email" class="form-control input-email" placeholder="your email">
+                </div>
+                <div class="button-submit text-center">
+                  <a href="" class="btn btn-fill-primary text-dark">
+                    <span class="text-dark" style="width: 160px;"> build together <i class="fas fa-arrow-right"></i>
+                    </span>
+                  </a>
+                </div>
+
+                <div class="icon-social">
               <ul>
                 <li>
                   <a href="">
@@ -1038,36 +1061,16 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <!--  End Col -->
-          <!--  Col -->
-          <div class="col-md-12 col-lg-3">
-            <div class="base-form-contact">
-              <h3>Have a project <br>in your mind? </h3>
-              <div class="group-form-input">
-                <div class="input-name">
-                  <input type="text" class="form-control input-name" placeholder="Your name">
-                </div>
-                <div class="input-mail">
-                  <input type="email" class="form-control input-email" placeholder="your email">
-                </div>
-                <div class="button-submit text-center">
-                  <a href="" class="btn btn-fill-primary text-dark">
-                    <span class="text-dark" style="width: 160px;"> build together <i class="fas fa-arrow-right"></i>
-                    </span>
-                  </a>
-                </div>
+
               </div>
-              <div class="times-work text-center">
-                <h4>09 : 00 AM - 10 : 30 PM</h4>
-                <h4>Saturday - Thursday</h4>
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
     </footer>
     <!-- END FOOTER -->
+
     <!-- jQuery Library -->
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap JavaScript -->
