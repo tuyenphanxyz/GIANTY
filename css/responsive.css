@@ -7,7 +7,9 @@
 * {}
 	
 /* ======= HEADER ======= */
-
+.header-screen-large {
+    padding: 0px 0px;
+}
 .header {
     background: #ffffff00;
     padding: 18px 0px;
@@ -347,6 +349,11 @@ h3.heading-news {
     margin-top: 16px;
 }
 
+#carousel-news.owl-carousel .owl-stage-outer {
+    padding: 0px 0px;
+}
+
+	
 	
 /* ==== About Us section ==== */
 
@@ -360,16 +367,19 @@ h3.heading-news {
 .group-content-about-us {
 	height: 500px;
 }
+.right-bellow-about-us {
+    margin-top: 100px;
+    padding: 0px 0px;
+}
+
 	
 .content-growth-centric {
 	margin-top: 0px;
 }
 .char-designers {
-	top: 36px;
 	font-size: 36px;
 }
 .char-engineers {
-    top: 96px;
     font-size: 36px;
 }
 
@@ -382,7 +392,9 @@ h3.heading-news {
 	margin-left: 0px;
 }
 
-
+.images-char {
+	display: none;
+}
 .char-all-about-us {
 	display: none;
 }
@@ -390,7 +402,6 @@ h3.heading-news {
 #char-mobile {
   display: block;
   position: relative;
-  top: 200px;
 }
 
 /* ==== Client section ==== */	
@@ -480,6 +491,7 @@ h3.heading-news {
 .content-case-studies {
     margin-left: 0px;
     margin-top: 0px;
+    padding: 0px 0px 0px 0px;
 }	
 .bottom-content-case-studies {
     margin-top: 48px;
@@ -544,39 +556,34 @@ h3.heading-news {
     margin-top: 18px;
     margin-left: 0px;
 }
-.card-services span i {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 36px;
-    width: 36px;
-    height: 36px;
-    text-align: center;
-    border: 1px solid #000;
-    background: #0000;
-    border-radius: 80%;
-    transition: all 0.4s;
+.services-art-design {
+    position: relative;
+    padding: 0px 0px 0px 0px;
 }
 
-	
-.card-services {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #cdcdcd;
-    width: 345px;
-    margin-bottom: 26px;
-    padding-bottom: 24px;
-    transition: all 0.4s;
-}
-	
-.card-services h3 {
-    font-weight: bold;
-    width: 245px;
-    font-size: 18px;
-    line-height: 26px;
-    transition: all 0.4s;
+.images-art-design h5 {
+    margin: 0px 0px 0px 0px;
+    line-height: 42px;
+    background-image: linear-gradient(to top, #5904ff, #ff006b,#ff0457);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
+.images-art-design {
+    background: url(../images/bg-art.png);
+    height: 100%;
+    background-position: center;
+    position: relative;
+    top: 0;
+}
+.text-art-design {
+    width: 100%;
+    margin-bottom: 48px;
+}	
+#gallery-products-game {
+    padding-left: 0px;
+    padding-top: 0px;
+}	
 /* ==== CTA section ==== */	
 
 .base-shape-cta {
@@ -614,7 +621,9 @@ h3.heading-news {
     text-transform: capitalize;
     color: #f5154d;
 }
-
+.text-cta h5 {
+   width: 345px;
+}
 /* ======= FOOTER ======= */
 
 	.footer {
@@ -1264,6 +1273,11 @@ h3.heading-news {
     color: #f5154d;
 }
 
+.text-cta h5 {
+	
+}
+
+	
 /* ======= FOOTER ======= */
 
 	.footer {
@@ -1425,9 +1439,8 @@ h3.heading-news {
 
 * {}
 h1.development-hero {
-    font-size: 88px;
     letter-spacing: 2rem;
-    background-image: linear-gradient(to top, #fd5201,#ed0137ed,#0175eded, #000dff,#000fff);
+    background-image: linear-gradient(to top, #012cfd,#0108eded,#8cffffed, #000dff,#000fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
